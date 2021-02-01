@@ -81,5 +81,12 @@ df/dx's upstream gradient is df/dq and local gradient is dq/dx
 df/dy's upstream gradient is df/dq and local gradient is dq/dy
 
 
+-Backpropagation in neural network
+
+![9](https://user-images.githubusercontent.com/59158426/106477297-591b8500-64eb-11eb-9ed9-512ad974cb9f.PNG)
+
+We have to get the gradient of Wn for the update and Xn to deliver it to the next layer. dL/dXn+1 is received from next or (n+1)th layer.
+
+
 
 
