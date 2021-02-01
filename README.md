@@ -12,8 +12,9 @@
 ## Neural Network
 
 - Motivation : Linear classifers are not very powerful
+![1](https://user-images.githubusercontent.com/59158426/106470232-98de6e80-64e3-11eb-85c2-0257ecc74dde.PNG)
+- Stacking multiple layers with non-linearity expresses more
 
-- Challenges : Viewpioint variation, Background clutter, Illmination, Deformation, Occlusion, Intraclass variation, .....
 - Many attempts have been made...
 
 ### Machine Learning : Data-Driven Approach
