@@ -31,6 +31,11 @@
  
 ![image](https://user-images.githubusercontent.com/59158426/106474024-d0e7b080-64e7-11eb-9ff5-a4aceaa35250.png)
 
+-Examples : R^m to R^n (y=Ax)
+
+Jacobian is considered as a partial derivative of multidimensional mapping
+
+
 ## Backpropagtion
 
 -Directly optimizing the whole neural network(getting the gradient) is complicated. Therefore we use backpropagation.
