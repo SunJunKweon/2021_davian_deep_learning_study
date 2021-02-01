@@ -26,7 +26,7 @@
 -Consider a vector function f(x)=(f1(x),f2(x),...fm(x)). Consider a small change Δx.
  f(x+Δx)=[f1(x+Δx),f2(x+Δx),...fm(x+Δx)]=f(x)+[∇f1(x),...∇fm(x)]TΔx
  The Jacobian of f at x is 
-
+![image](https://user-images.githubusercontent.com/59158426/106474024-d0e7b080-64e7-11eb-9ff5-a4aceaa35250.png)
 
 ## Backpropagtion
 
