@@ -6,7 +6,7 @@
 
 - **Title:** (cs231n) Lecture 4 : Introduction to Neural Networks 
 - **Link:** http://cs231n.stanford.edu/slides/2020/lecture_4.pdf
-- **Keywords:** Neural Networks, Backpropagation
+- **Keywords:** Neural Networks, Jacobians, Backpropagation
 -------------------------------------------------------
 
 ## Neural Network
@@ -21,6 +21,12 @@
 - f which contributes to non-linearity is called activation function. Below are popular choices for activation functions
 ![3](https://user-images.githubusercontent.com/59158426/106471511-0b038300-64e5-11eb-82e1-dd38e0bbd6ab.PNG)
 
+## Jacobian
+
+-Consider a vector function f(x)=(f1(x),f2(x),...fm(x)). Consider a small change Δx.
+ f(x+Δx)=[f1(x+Δx),f2(x+Δx),...fm(x+Δx)]=f(x)+[∇f1(x),...∇fm(x)]TΔx
+ The Jacobian of f at x is 
+
 
 ## Backpropagtion
 
@@ -31,4 +37,6 @@
 ![4](https://user-images.githubusercontent.com/59158426/106472698-481c4500-64e6-11eb-9525-e67264e1fd88.PNG)
 
 When we want to calculate the gradient(jacobian) of Loss with respect to a certain weight, we multiply the upstream gradient(which comes backward from the loss) with
-the local gradient.
+the local gradient. Then we use gradient descent algorithm to optimize the loss. 
+(Note : the derivative can be either gradient or jacobians, but must have the same dimension with the variable to update)
+
