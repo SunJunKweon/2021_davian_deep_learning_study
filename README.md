@@ -25,6 +25,7 @@
 ## Backpropagtion
 
 -Directly optimizing the whole neural network(getting the gradient) is complicated. Therefore we use backpropagation.
+
 -Backpropgation comes from the chain rule
 
 ![4](https://user-images.githubusercontent.com/59158426/106472698-481c4500-64e6-11eb-9525-e67264e1fd88.PNG)
