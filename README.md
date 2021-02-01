@@ -67,3 +67,8 @@ When we want to calculate the gradient(jacobian) of Loss with respect to a certa
 the local gradient. Then we use gradient descent algorithm to optimize the loss. 
 (Note : the derivative can be either gradient or jacobians, but must have the same dimension with the variable to update)
 
+
+-Scalar example with computational graph
+
+
+
