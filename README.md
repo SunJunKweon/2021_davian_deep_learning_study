@@ -33,6 +33,8 @@
 
 -Examples : R^m to R^n (y=Ax)
 
+![5](https://user-images.githubusercontent.com/59158426/106474533-5c614180-64e8-11eb-8327-1040f4f69cee.PNG)
+
 Jacobian is considered as a partial derivative of multidimensional mapping
 
 
