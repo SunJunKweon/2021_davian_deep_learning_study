@@ -14,8 +14,8 @@
 - Motivation : Linear classifers are not very powerful
 ![1](https://user-images.githubusercontent.com/59158426/106470232-98de6e80-64e3-11eb-85c2-0257ecc74dde.PNG)
 - Stacking multiple layers with non-linearity expresses more
-
-- Many attempts have been made...
+![2](https://user-images.githubusercontent.com/59158426/106470686-23bf6900-64e4-11eb-8c0d-a8630bf23bc5.PNG)
+- Instead of just having linear score **s=W1x** 2-layer neural network's score is **s=W2f(W1x)**
 
 ### Machine Learning : Data-Driven Approach
 
