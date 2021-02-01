@@ -6,12 +6,12 @@
 
 - **Title:** (cs231n) Lecture 4 : Introduction to Neural Networks 
 - **Link:** http://cs231n.stanford.edu/slides/2020/lecture_4.pdf
-- **Keywords:** Neural Networks, Backpropagation
+- **Keywords:** Neural Networks, Optimization, Backpropagation
 -------------------------------------------------------
 
 ## Neural Network
 
-- Motivation : Linear classifers are not very powerful
+- Motivation : Linear classifers are not very powerful. It is hard to classify things which cannot be divided by a single line(hyperplane)
 ![1](https://user-images.githubusercontent.com/59158426/106470232-98de6e80-64e3-11eb-85c2-0257ecc74dde.PNG)
 
 - Stacking multiple layers with non-linearity expresses more
@@ -20,7 +20,9 @@
 - Instead of just having linear score **s=W1x** 2-layer neural network's score is **s=W2f(W1x)**
 - f which contributes to non-linearity is called activation function. Below are popular choices for activation functions
 ![3](https://user-images.githubusercontent.com/59158426/106471511-0b038300-64e5-11eb-82e1-dd38e0bbd6ab.PNG)
-### Machine Learning : Data-Driven Approach
+
+
+## Optimizing Neural Network
 
 1. Collect a datasest of images and labels
 2. Use Machine Learning to train a classifier
