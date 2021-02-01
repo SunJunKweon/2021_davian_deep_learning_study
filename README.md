@@ -27,7 +27,6 @@
 -Directly optimizing the whole neural network(getting the gradient) is complicated. Therefore we use backpropagation.
 -Backpropgation comes from the chain rule
 
-## Nearest Neighbor : the simplest classifier
-1. Memorize all data and labels
-2. Predict the label of the most similar training image
-  - For each test image, find **closest train image** and predict label of nearest image
+![4](https://user-images.githubusercontent.com/59158426/106472698-481c4500-64e6-11eb-9525-e67264e1fd88.PNG)
+
+
