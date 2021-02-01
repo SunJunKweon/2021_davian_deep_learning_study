@@ -31,15 +31,21 @@
  
 ![image](https://user-images.githubusercontent.com/59158426/106474024-d0e7b080-64e7-11eb-9ff5-a4aceaa35250.png)
 
--Examples : R^m to R^n (y=Ax)
+-Example : R^m to R^n (y=Ax)
 
 ![5](https://user-images.githubusercontent.com/59158426/106474533-5c614180-64e8-11eb-8327-1040f4f69cee.PNG)
 
 Jacobian is considered as a partial derivative of multidimensional mapping
 
--Examples : R^(m*n) to R (y=f(X)) 
+-Example : R^(m*n) to R (y=f(X)) 
 
  matrix derivative
+ 
+ ![6](https://user-images.githubusercontent.com/59158426/106475524-5cae0c80-64e9-11eb-8d56-386a8e3a1614.PNG)
+ 
+-Example : R^(m*n) to R^k (y=Wx where W is m*n matrix, x is n-dim vector)
+ 
+ The Jacobian has dimension k*(m*n) where ith row is given by (k=m)
  
  
 
