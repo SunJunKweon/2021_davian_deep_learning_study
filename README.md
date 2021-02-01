@@ -47,6 +47,7 @@ Jacobian is considered as a partial derivative of multidimensional mapping
  
  The Jacobian has dimension k*(m*n) where ith row is given by (k=m)
  
+ ![7](https://user-images.githubusercontent.com/59158426/106475799-b44c7800-64e9-11eb-9694-a5b9d96547a5.PNG)
  
 
 
