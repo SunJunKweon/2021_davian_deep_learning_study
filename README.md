@@ -6,7 +6,7 @@
 
 - **Title:** (cs231n) Lecture 4 : Introduction to Neural Networks 
 - **Link:** http://cs231n.stanford.edu/slides/2020/lecture_4.pdf
-- **Keywords:** Neural Networks, Optimization, Backpropagation
+- **Keywords:** Neural Networks, Backpropagation
 -------------------------------------------------------
 
 ## Neural Network
@@ -22,11 +22,10 @@
 ![3](https://user-images.githubusercontent.com/59158426/106471511-0b038300-64e5-11eb-82e1-dd38e0bbd6ab.PNG)
 
 
-## Optimizing Neural Network
+## Backpropagtion
 
-1. Collect a datasest of images and labels
-2. Use Machine Learning to train a classifier
-3. Evaluate the classifier on new images
+-Directly optimizing the whole neural network(getting the gradient) is complicated. Therefore we use backpropagation.
+-Backpropgation comes from the chain rule
 
 ## Nearest Neighbor : the simplest classifier
 1. Memorize all data and labels
