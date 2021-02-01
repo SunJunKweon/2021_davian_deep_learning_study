@@ -18,6 +18,7 @@
 
 ![2](https://user-images.githubusercontent.com/59158426/106471208-bf50d980-64e4-11eb-8093-1c9ecde09bbe.PNG)
 - Instead of just having linear score **s=W1x** 2-layer neural network's score is **s=W2f(W1x)**
+- f which contributes to non-linearity is called activation function. Below are popular choices for activation functions
 
 ### Machine Learning : Data-Driven Approach
 
