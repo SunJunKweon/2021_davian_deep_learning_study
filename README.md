@@ -30,4 +30,5 @@
 
 ![4](https://user-images.githubusercontent.com/59158426/106472698-481c4500-64e6-11eb-9525-e67264e1fd88.PNG)
 
-
+When we want to calculate the gradient(jacobian) of Loss with respect to a certain weight, we multiply the upstream gradient(which comes backward from the loss) with
+the local gradient.
