@@ -37,6 +37,16 @@
 
 Jacobian is considered as a partial derivative of multidimensional mapping
 
+-Examples : R^(m*n) to R (y=f(X)) 
+
+ matrix derivative
+ 
+ 
+
+
+
+
+
 
 ## Backpropagtion
 
