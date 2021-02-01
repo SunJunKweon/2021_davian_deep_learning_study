@@ -70,5 +70,16 @@ the local gradient. Then we use gradient descent algorithm to optimize the loss.
 
 -Scalar example with computational graph
 
+![8](https://user-images.githubusercontent.com/59158426/106476627-992e3800-64ea-11eb-8d9f-63e0774da091.PNG)
+
+q=x+y and f=q*z
+
+df/dz can be directly calcaluated from f=q*z
+
+df/dx's upstream gradient is df/dq and local gradient is dq/dx
+
+df/dy's upstream gradient is df/dq and local gradient is dq/dy
+
+
 
 
